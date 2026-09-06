@@ -28,7 +28,7 @@ const ContactPage = () => {
     <div className="py-20">
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          <div>
+          <div className="flex flex-col">
             <h1 className="text-4xl lg:text-6xl font-bold text-primary dark:text-white mb-6">
               Let's build something <span className="text-accent">scalable</span>.
             </h1>
@@ -115,7 +115,6 @@ const ContactPage = () => {
           </div>
         </div>
 
-        {/* Calendly Placeholder Section */}
         <div className="mt-24 py-16 bg-surface dark:bg-slate-800 rounded-3xl border border-slate-200 dark:border-slate-700 text-center">
           <h2 className="text-3xl font-bold text-primary dark:text-white mb-4">Fast-track your discovery</h2>
           <p className="text-secondary dark:text-slate-400 mb-12 max-w-xl mx-auto">

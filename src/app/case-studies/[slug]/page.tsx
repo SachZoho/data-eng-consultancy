@@ -16,7 +16,6 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 }
 
 export async function generateStaticParams() {
-  // Normally we'd use getAllCaseStudies() here to pre-render all pages
   return [];
 }
 
@@ -88,7 +87,7 @@ const CaseStudyDetail = async ({ params }: { params: { slug: string } }) => {
                 Book a Call
               </Link>
             </div>
-          </div>
+          </aside>
         </div>
       </Container>
     </div>
