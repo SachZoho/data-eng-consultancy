@@ -1,0 +1,19 @@
+---
+title: "Modernizing Health Data Infrastructure"
+client: "HealthData AI"
+industry: "Healthcare AI"
+challenge: "Fragmented data across multiple legacy SQL servers made it impossible to build a cohesive dataset for training their ML models. Compliance (HIPAA) was a major concern."
+solution: "We migrated their fragmented environment to a secure Databricks Lakehouse. We implemented strict role-based access control (RBAC) and automated PII masking to ensure HIPAA compliance."
+result: "Model training time was reduced by 60% due to consolidated data access. The company achieved full compliance certification in record time."
+kpi: "60% Faster ML Training"
+tech_stack: ["Databricks", "PySpark", "Azure Blob Storage", "Terraform"]
+---
+
+## The Challenge
+HealthData AI had data silos across five different regional offices. Joining these datasets for a global view required manual exports and risky manual merges.
+
+## Our Approach
+We leveraged **Unity Catalog** for centralized governance. By implementing a shared metadata layer, we allowed data scientists to discover and query datasets across regions securely without moving the data unnecessarily.
+
+## The Outcome
+The new infrastructure allowed the team to iterate on their lapped-lung cancer detection model 3x faster, leading to a breakthrough in early detection rates.

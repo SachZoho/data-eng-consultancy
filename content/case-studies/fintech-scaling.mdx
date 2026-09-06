@@ -1,0 +1,22 @@
+---
+title: "Scaling Data Ingestion for Global Fintech"
+client: "Fintech Corp"
+industry: "Financial Services"
+challenge: "The client was facing massive bottlenecks in their data ingestion pipeline, with reporting latency exceeding 24 hours during peak loads. Manual CSV uploads were causing frequent data quality issues."
+solution: "We designed and implemented a real-time ingestion framework using Apache Kafka and Snowflake. We introduced a robust validation layer that checked data quality at the edge before it reached the warehouse."
+result: "Reporting latency was reduced from 24 hours to under 15 minutes. Manual data entry was eliminated, and data reliability increased to 99.9%."
+kpi: "99% Reduction in Latency"
+tech_stack: ["Apache Kafka", "Snowflake", "Python", "dbt"]
+---
+
+## The Challenge
+Fintech Corp had grown rapidly, and their legacy data pipelines couldn't keep up. Data scientists were spending 40% of their time cleaning data rather than analyzing it.
+
+## Our Approach
+We didn't just replace the tools; we redesigned the flow. We implemented a **Bronze-Silver-Gold** architecture:
+1. **Bronze**: Raw ingestion for auditability.
+2. **Silver**: Cleaned, deduplicated, and validated data.
+3. **Gold**: Business-ready aggregates for reporting.
+
+## The Outcome
+The transition enabled the company to launch a new real-time fraud detection system that saved them an estimated $1.2M in the first quarter alone.
