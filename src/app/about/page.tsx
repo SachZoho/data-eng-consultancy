@@ -30,7 +30,7 @@ const AboutPage = () => {
               {[
                 { title: 'Reliability First', desc: 'A fast pipeline that is occasionally wrong is a liability, not an asset.' },
                 { title: 'Simplicity by Design', desc: 'Avoid over-engineering. Build for today, but architect for tomorrow.' },
-                { title: 'Business-Centric', desc: 'Technical excellence is meaningless if it doesn't drive business value.' },
+                { title: 'Business-Centric', desc: 'Technical excellence is meaningless if it doesn\u2019t drive business value.' },
               ].map((item, i) => (
                 <li key={i} className="flex gap-4">
                   <span className="text-accent font-bold">{i + 1}.</span>
