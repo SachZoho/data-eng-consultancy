@@ -1,6 +1,6 @@
 import Hero from '@/components/features/home/hero';
 import ServicesPreview from '@/components/features/home/services-preview';
-import Testimonials from '@/components/features/home/testimonials';
+import Expertise from '@/components/features/home/expertise';
 import { Container } from '@/components/layout/container';
 import Link from 'next/link';
 
@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Hero />
       <ServicesPreview />
-      <Testimonials />
+      <Expertise />
 
       {/* Final CTA Section */}
       <section className="py-20 bg-primary text-white overflow-hidden relative">
