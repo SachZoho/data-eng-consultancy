@@ -4,10 +4,19 @@ import { Container } from '@/components/layout/container';
 import { getCaseStudyBySlug } from '@/lib/content-parser';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const study = await getCaseStudyBySlug(params.slug);
+  if (!study) return { title: 'Case Study Not Found' };
+  return {
+    title: `${study.title} | DataEng.`,
+    description: study.challenge,
+  };
+}
 
 export async function generateStaticParams() {
-  // This is needed for static export/optimization
-  // Normally we'd use getAllCaseStudies() here
+  // Normally we'd use getAllCaseStudies() here to pre-render all pages
   return [];
 }
 

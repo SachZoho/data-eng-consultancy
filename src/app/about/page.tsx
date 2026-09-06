@@ -1,6 +1,12 @@
 import React from 'react';
 import { Container } from '@/components/layout/container';
 import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "About Us | DataEng.",
+  description: "Meet the team and learn about our philosophy of pragmatism over hype in data engineering.",
+};
 
 const AboutPage = () => {
   return (

@@ -1,6 +1,13 @@
 import React from 'react';
+import Link from 'next/link';
 import { Container } from '@/components/layout/container';
 import services from '@/content/services.json';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Our Services | DataEng.",
+  description: "Expert data engineering services including Automated Integration, Lakehouse Architecture, and Data Governance.",
+};
 
 const ServicesPage = () => {
   return (
@@ -70,7 +77,5 @@ const ServicesPage = () => {
     </div>
   );
 };
-
-import Link from 'next/link';
 
 export default ServicesPage;
