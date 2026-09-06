@@ -1,5 +1,6 @@
 import React from 'react';
 import { MDXRemote } from 'next-mdx-remote';
+import { serialize } from 'next-mdx-remote/serialize';
 import { Container } from '@/components/layout/container';
 import { getCaseStudyBySlug } from '@/lib/content-parser';
 import Link from 'next/link';
@@ -25,6 +26,8 @@ const CaseStudyDetail = async ({ params }: { params: { slug: string } }) => {
   if (!study) {
     notFound();
   }
+
+  const content = await serialize(study.content);
 
   return (
     <div className="py-20">
@@ -52,7 +55,7 @@ const CaseStudyDetail = async ({ params }: { params: { slug: string } }) => {
             </div>
 
             <div className="prose prose-slate dark:prose-invert max-w-none mb-20">
-              <MDXRemote {...study} />
+              <MDXRemote {...content} />
             </div>
           </div>
 

@@ -111,9 +111,9 @@ const ContactPage = () => {
                   <p className="text-center text-red-500 text-sm font-medium">{message}</p>
                 )}
               </form>
+            )}
             </div>
           </div>
-        </div>
 
         <div className="mt-24 py-16 bg-surface dark:bg-slate-800 rounded-3xl border border-slate-200 dark:border-slate-700 text-center">
           <h2 className="text-3xl font-bold text-primary dark:text-white mb-4">Fast-track your discovery</h2>
