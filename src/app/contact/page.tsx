@@ -41,7 +41,7 @@ const ContactPage = () => {
                 <div className="h-12 w-12 rounded-full bg-accent/10 text-accent flex items-center justify-center font-bold">✉️</div>
                 <div>
                   <div className="font-bold text-primary dark:text-white">Email us directly</div>
-                  <div className="text-secondary dark:text-slate-400">hello@dataeng.example.com</div>
+                  <div className="text-secondary dark:text-slate-400">sachm1995@zohomail.in</div>
                 </div>
               </div>
               <div className="flex gap-4">

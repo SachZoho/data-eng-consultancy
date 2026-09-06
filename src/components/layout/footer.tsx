@@ -28,7 +28,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-slate-400 text-sm">
               <li><Link href="/contact" className="hover:text-white transition-colors">Book a Call</Link></li>
-              <li>hello@dataeng.example.com</li>
+              <li>sachm1995@zohomail.in</li>
             </ul>
           </div>
         </div>
