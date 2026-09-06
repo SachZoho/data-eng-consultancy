@@ -42,7 +42,7 @@ const Testimonials = () => {
               <div className="flex items-center gap-3">
                 <div className="h-10 w-10 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center font-bold text-primary dark:text-white">
                   {t.author[0]}
-                </div}
+                </div>
                 <div>
                   <div className="font-bold text-primary dark:text-white text-sm">{t.author}</div>
                   <div className="text-xs text-secondary dark:text-slate-500">{t.role}</div>
