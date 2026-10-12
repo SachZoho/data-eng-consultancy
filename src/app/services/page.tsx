@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Our Services | DataEng.",
-  description: "Expert data engineering services including Automated Integration, Lakehouse Architecture, and Data Governance.",
+  description: "Data engineering services for every industry: automated integration, lakehouse architecture, data governance and cloud migration across AWS and Azure.",
 };
 
 const ServicesPage = () => {
@@ -18,7 +18,7 @@ const ServicesPage = () => {
             Our Expertise
           </h1>
           <p className="text-lg text-secondary dark:text-slate-400 max-w-2xl mx-auto">
-            We provide the technical depth and strategic vision needed to build a world-class data platform.
+            We provide the technical depth and strategic vision needed to build a world-class data platform, for organisations in every industry — finance, healthcare, retail, logistics and SaaS.
           </p>
         </div>
 
@@ -45,6 +45,14 @@ const ServicesPage = () => {
                       <span className="text-success font-bold">✓</span>
                       {benefit}
                     </div>
+                  ))}
+                </div>
+
+                <div className="flex flex-wrap gap-2 pt-2">
+                  {service.tech.map((t) => (
+                    <span key={t} className="px-3 py-1 text-xs font-medium text-secondary dark:text-slate-400 bg-slate-100 dark:bg-slate-800 rounded-full">
+                      {t}
+                    </span>
                   ))}
                 </div>
               </div>

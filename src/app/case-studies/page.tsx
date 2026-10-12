@@ -14,7 +14,7 @@ const CaseStudiesPage = async () => {
             Proof of Work
           </h1>
           <p className="text-lg text-secondary dark:text-slate-400 max-w-2xl mx-auto">
-            Real-world challenges solved with engineering precision. See how we help companies turn data into a competitive advantage.
+            Real-world challenges solved with engineering precision, across every industry. See how we help companies turn data into a competitive advantage.
           </p>
         </div>
 

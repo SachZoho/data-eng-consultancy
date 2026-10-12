@@ -20,8 +20,11 @@ const AboutPage = () => {
             <p className="text-lg text-secondary dark:text-slate-400 leading-relaxed mb-6">
               In an industry filled with buzzwords and "silver bullet" tools, we take a different approach. We believe that the best data architecture is the simplest one that solves the problem reliably.
             </p>
-            <p className="text-lg text-secondary dark:text-slate-400 leading-relaxed">
+            <p className="text-lg text-secondary dark:text-slate-400 leading-relaxed mb-6">
               We don't sell specific tools; we sell outcomes. Whether that means a complex Lakehouse or a simple SQL script, our goal is to provide the most efficient path to reliable business intelligence.
+            </p>
+            <p className="text-lg text-secondary dark:text-slate-400 leading-relaxed">
+              We work across every industry — financial services, healthcare, retail, logistics, SaaS and the public sector. The data engineering problems repeat across all of them, so we are not tied to any single vertical.
             </p>
           </div>
           <div className="bg-surface dark:bg-slate-800 p-8 rounded-3xl border border-slate-200 dark:border-slate-700">

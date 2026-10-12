@@ -25,7 +25,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-lg lg:text-xl text-secondary dark:text-slate-400 mb-10 leading-relaxed">
-            Stop struggling with fragmented data. We design and implement scalable, reliable data pipelines and lakehouse architectures that turn raw information into strategic assets.
+            Stop struggling with fragmented data. We design and implement scalable, reliable data pipelines and lakehouse architectures that turn raw information into strategic assets. We work with organisations in every industry — finance, healthcare, retail, logistics and SaaS — because the data engineering problems are the same everywhere.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

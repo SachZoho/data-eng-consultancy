@@ -21,7 +21,7 @@ export async function getAllCaseStudies() {
   const files = fs.readdirSync(caseStudiesDir);
 
   return files
-    .filter(file => file.endsWith('.mdx'))
+    .filter(file => file.endsWith('.mdx') && !file.startsWith('_'))
     .map(file => {
       const slug = file.replace(/\.mdx$/, '');
       const fileContents = fs.readFileSync(path.join(caseStudiesDir, file), 'utf8');
