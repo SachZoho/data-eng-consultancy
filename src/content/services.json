@@ -10,6 +10,13 @@
       "Automatic error detection and alerting",
       "Scalable architecture that grows with your data volume"
     ],
+    "tech": [
+      "Apache Flink",
+      "Apache Kafka",
+      "Apache Airflow",
+      "dbt",
+      "Python"
+    ],
     "approach": "We start by auditing your existing data sources, designing a resilient pipeline architecture, and implementing a managed orchestration layer to ensure reliability.",
     "icon": "🔄"
   },
@@ -23,6 +30,13 @@
       "ACID transactions on top of cloud object storage",
       "Significant reduction in storage costs",
       "Simplified data versioning and time-travel"
+    ],
+    "tech": [
+      "Delta Lake",
+      "Apache Iceberg",
+      "Fabric Lakehouse",
+      "Amazon Athena",
+      "Apache Spark"
     ],
     "approach": "We analyze your workload patterns, select the optimal storage format, and build a structured layer that enables high-performance SQL queries on raw data.",
     "icon": "🏠"
@@ -38,6 +52,12 @@
       "Automated data quality scoring",
       "Compliance with industry standards (GDPR, HIPAA, etc.)"
     ],
+    "tech": [
+      "dbt tests",
+      "Data Catalog",
+      "Lineage",
+      "Role-Based Access Control"
+    ],
     "approach": "We define critical data quality dimensions, implement automated validation at every pipeline stage, and create a centralized data catalog for your organization.",
     "icon": "🛡️"
   },
@@ -51,6 +71,13 @@
       "Elastic scaling to handle peak workloads",
       "Access to cutting-edge cloud-native tools",
       "Improved disaster recovery and availability"
+    ],
+    "tech": [
+      "AWS",
+      "Azure",
+      "Snowflake",
+      "Databricks",
+      "Terraform"
     ],
     "approach": "We follow a phased approach: Assessment -> Pilot -> Parallel Run -> Cutover, ensuring zero data loss and minimal business impact.",
     "icon": "☁️"

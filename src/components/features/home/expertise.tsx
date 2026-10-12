@@ -6,22 +6,22 @@ const expertise = [
     icon: '⚡',
     title: 'Real-Time Data Streaming',
     description:
-      'Build event-driven architectures that process millions of events per second. From Kafka and Spark Streaming to Flink, we design streaming systems that deliver data with sub-second latency — so your dashboards and alerts reflect what is happening right now, not what happened yesterday.',
-    skills: ['Apache Kafka', 'Spark Streaming', 'Apache Flink', 'Event-Driven Design'],
+      'Build event-driven architectures that process millions of events per second. From Kafka and Flink to Spark Streaming and Microsoft Fabric Eventstreams, we design streaming systems that deliver data with sub-second latency — so your dashboards and alerts reflect what is happening right now, not what happened yesterday.',
+    skills: ['Apache Kafka', 'Apache Flink', 'Spark Streaming', 'Fabric Eventstreams'],
   },
   {
     icon: '🔗',
     title: 'Scalable Data Pipelines',
     description:
       'Replace fragile scripts and manual CSV uploads with robust, automated ETL/ELT pipelines. We orchestrate reliable data flows from source to destination — whether that is a data warehouse, a data lake, or both — with built-in retry logic, monitoring, and zero manual intervention.',
-    skills: ['ETL / ELT', 'Airflow', 'dbt', 'Delta Lake'],
+    skills: ['ETL / ELT', 'Airflow', 'dbt', 'Delta Lake', 'Terraform'],
   },
   {
     icon: '📊',
     title: 'Analytics & Business Intelligence',
     description:
-      'Turn raw data into decisions. We design semantic layers, build self-service dashboards, and implement the data models behind them — so your analysts and executives get accurate, fast answers without waiting on engineering.',
-    skills: ['SQL Modeling', 'Power BI', 'Tableau', 'Looker'],
+      'Turn raw data into decisions. We build real-time analytics on Apache Druid and Fabric Eventhouse, design semantic layers, and implement the data models behind self-service dashboards — so your analysts and executives get accurate, fast answers without waiting on engineering.',
+    skills: ['Apache Druid', 'Fabric Eventhouse', 'Power BI', 'Tableau', 'Looker'],
   },
 ];
 

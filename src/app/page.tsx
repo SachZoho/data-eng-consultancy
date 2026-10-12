@@ -1,6 +1,7 @@
 import Hero from '@/components/features/home/hero';
 import ServicesPreview from '@/components/features/home/services-preview';
 import Expertise from '@/components/features/home/expertise';
+import TechStack from '@/components/features/home/tech-stack';
 import { Container } from '@/components/layout/container';
 import Link from 'next/link';
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <ServicesPreview />
       <Expertise />
+      <TechStack />
 
       {/* Final CTA Section */}
       <section className="py-20 bg-primary text-white overflow-hidden relative">
